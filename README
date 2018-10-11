@@ -369,7 +369,7 @@ IF SOMETHING GOES WRONG:
  - In debugging dumps like the above, it helps enormously if you can
    look up what the EIP value means.  The hex value as such doesn't help
    me or anybody else very much: it will depend on your particular
-   kernel setup.  What you should do is take the hex value from the EIP
+   kernel setup.  What you should do is taking the hex value from the EIP
    line (ignore the "0010:"), and look it up in the kernel namelist to
    see which kernel function contains the offending address.
 
